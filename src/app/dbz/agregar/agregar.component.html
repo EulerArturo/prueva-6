@@ -1,0 +1,19 @@
+<h3>Formulario</h3>
+        <hr>
+        <form (ngSubmit)="agregar()">
+            <input 
+            placeholder="digita tu nombre" 
+            type="text"
+            name="nombre"
+            [(ngModel)]="nuevo.nombre"
+            >
+
+            <input 
+            placeholder="digita tu numero" 
+            type="number"
+            name="poder"
+            [(ngModel)]="nuevo.poder"
+            >
+
+            <button>agregar</button>
+        </form>
